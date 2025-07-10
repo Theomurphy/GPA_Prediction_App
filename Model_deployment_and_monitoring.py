@@ -4,8 +4,8 @@ import pandas as pd
 import joblib
 
 # Importing linear regression trained model
-model = joblib.load("/Model/lr_model.pkl")
-feature_order = joblib.load("/Model/data_features.pkl")
+model = joblib.load("Model/lr_model.pkl")
+feature_order = joblib.load("Model/data_features.pkl")
 
 st.title("🎓 Smart GPA Predictor", width="stretch")
 st.markdown("""
