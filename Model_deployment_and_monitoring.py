@@ -7,7 +7,7 @@ import joblib
 model = joblib.load("Model/lr_model.pkl")
 feature_order = joblib.load("Model/data_features.pkl")
 
-st.title("🎓 Smart GPA Predictor", width="stretch")
+st.title("🎓 GPA Predictor", width="stretch")
 st.markdown("""
 Use this intelligent system to predict a student's GPA based on academic and personal information.
 """)
