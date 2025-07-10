@@ -17,7 +17,7 @@ Use this intelligent system to predict a student's GPA based on academic and per
 with st.sidebar:
     st.markdown("### GPA overview")
     st.caption("**Grade Point Average (GPA), is a numerical representation of a student's academic performance**")
-    st.image("C:/Users/Trois/Downloads/Video/Data Science/Project/Dataset/Submitted/Corrected/GPA.PNG")
+    st.image("GPA.PNG")
     st.markdown("---")
     st.caption("**Model Used:** Linear Regression")
     st.caption("📅 Developed: July 2025")
